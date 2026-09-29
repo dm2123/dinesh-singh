@@ -133,6 +133,12 @@ main {
   color: var(--pink); margin-top: 8px; font-size: 1.05rem; font-weight: 700;
   animation: pop-in 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.62s both;
 }
+.tagline-cyber {
+  display: inline-block; margin-top: 10px; font-size: 0.95rem; font-weight: 700;
+  color: #0d1117; background: #d0f0ff; border: 2px solid #1f6feb;
+  padding: 6px 16px; border-radius: 20px;
+  animation: pop-in 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.74s both;
+}
 
 /* ---------- dividers ---------- */
 .divider { margin: 6px 0 26px; }
