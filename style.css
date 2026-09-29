@@ -1,0 +1,76 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 100%;
+  max-width: 560px;
+  padding: 48px 20px 32px;
+}
+
+.hero { text-align: center; margin-bottom: 32px; }
+
+.avatar {
+  width: 96px; height: 96px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 36px; font-weight: 800;
+  color: #0d1117;
+  background: linear-gradient(135deg, #58a6ff, #3fb950);
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.tagline { color: #8b949e; margin-top: 8px; font-size: 1.05rem; }
+.tagline-hi { color: #3fb950; margin-top: 6px; font-size: 1rem; }
+
+.links { display: flex; flex-direction: column; gap: 12px; margin-bottom: 32px; }
+
+.card {
+  display: flex; align-items: center; gap: 14px;
+  padding: 14px 16px;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 14px;
+  text-decoration: none; color: inherit;
+  transition: transform .15s ease, border-color .15s ease;
+}
+
+.card:hover, .card:active { transform: translateY(-2px); border-color: #58a6ff; }
+
+.card svg { width: 32px; height: 32px; flex-shrink: 0; fill: #e6edf3; }
+
+.card span { display: flex; flex-direction: column; }
+.card strong { font-size: 1.05rem; }
+.card small { color: #8b949e; font-size: .85rem; margin-top: 2px; }
+
+.card.instagram:hover { border-color: #e1306c; }
+.card.facebook:hover { border-color: #1877f2; }
+.card.x:hover { border-color: #e6edf3; }
+.card.linkedin:hover { border-color: #0a66c2; }
+.card.youtube:hover { border-color: #ff0000; }
+
+.about {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 32px;
+}
+
+.about h2 { font-size: 1.2rem; margin-bottom: 10px; }
+.about p { color: #c9d1d9; line-height: 1.6; }
+
+footer { text-align: center; color: #6e7681; font-size: .85rem; }
